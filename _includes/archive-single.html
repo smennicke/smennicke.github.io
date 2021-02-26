@@ -43,7 +43,15 @@
         {% elsif post.collection == 'publications' %}
           <p>
           {% if post.coauthors %}
-            Joint work with {{ post.coauthors | join: ', ' }}
+            {% for cslug in post.coauthors %}
+              {% if site.data.coauthors[cslug].url %}
+                <a href="{{ site.data.coauthors[cslug].url }}" target="_blank">
+              {% endif %}
+                {{ site.data.coauthors[cslug].name }}
+              {% if site.data.coauthors[cslug].url %}
+                </a>
+              {% endif %}
+            {% endfor %}
             <br>
           {% endif %}
           Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>

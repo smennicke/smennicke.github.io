@@ -1,5 +1,6 @@
 ---
 title: "Relational Database Systems II"
+category: Lectures
 collection: teaching
 type: "Graduate Course (M.Sc.)"
 permalink: "/teaching/2019-summer-rdb2"
@@ -13,16 +14,9 @@ roles:
       url: http://www.ifis.cs.tu-bs.de/teaching/ss2019/rdb2
       year: 2019
   
-keywords:
-  - datbase management systems
-  - dbms
-  - implementation techniques
-  - query optimization
-  - transaction management
-  - ACID
+tags: [database management systems,dbms,implementation techniques,query optimization,transaction management,ACID]
 ---
 
-`{{ page.keywords | join: '``' }}`
 
 ## Terms by Role
 

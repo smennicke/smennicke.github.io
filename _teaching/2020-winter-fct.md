@@ -1,5 +1,6 @@
 ---
 title: "Foundations of Complexity Theory"
+category: Lectures
 collection: teaching
 type: "Graduate Course (M.Sc.)"
 permalink: "/teaching/2020-winter-fct"
@@ -13,15 +14,9 @@ roles:
       url: https://iccl.inf.tu-dresden.de/web/Complexity_Theory_(WS2020)
       year: 2020
   
-keywords:
-  - theoretical computer science
-  - complexity theory
-  - Turing machines
-  - computational models
-  - foundations of computing
+tags: [theoretical computer science,complexity theory,Turing machines,computational models,foundations of computing]
 ---
 
-`{{ page.keywords | join: '``' }}`
 
 ## Terms by Role
 

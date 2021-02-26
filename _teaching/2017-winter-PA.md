@@ -1,5 +1,6 @@
 ---
 title: "Prozessalgebra"
+category: Lectures
 collection: teaching
 type: "Graduate Course (M.Sc.)"
 permalink: "/teaching/2017-winter-pa"
@@ -28,16 +29,9 @@ roles:
     - semester: winter
       year: 2013
   
-keywords:
-  - process algebra
-  - process calculi
-  - CCS
-  - Petri nets
-  - concurrency theory
-  - verification
+tags: [process algebra,process calculi,CCS,Petri nets,concurrency theory,verification,computational models]
 ---
 
-`{{ page.keywords | join: '``' }}`
 
 ## Terms by Role
 

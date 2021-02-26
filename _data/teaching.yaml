@@ -1,4 +1,5 @@
 - id: FCT
+  category: "Lectures"
   title: "Foundations of Complexity Theory"
   roles:
     - name: Tutor
@@ -18,6 +19,7 @@
   institute: "Knowledge-Based Systems Group"
   location: "Dresden, Germany"
 - id: RDB2
+  category: "Lectures"
   title: "Relational Database Systems II"
   roles:
     - name: Lecturer
@@ -26,7 +28,7 @@
           semester: summer
           url: http://www.ifis.cs.tu-bs.de/teaching/ss2019/rdb2
   keywords:
-    - "datbase management systems"
+    - "database management systems"
     - "dbms"
     - "implementation techniques"
     - "query optimization"
@@ -38,6 +40,7 @@
   institute: "Institut für Informationssysteme"
   location: "Braunschweig, Germany"
 - id: PA
+  category: "Lectures"
   title: "Prozessalgebra"
   roles:
     - name: Lecturer
@@ -67,6 +70,7 @@
     - "Petri nets"
     - "concurrency theory"
     - "verification"
+    - "computational models"
   type: "Graduate Course (M.Sc.)"
   school: "TU Braunschweig"
   department: "Carl-Friedrich-Gauß Faculty"

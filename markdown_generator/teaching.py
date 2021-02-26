@@ -13,8 +13,7 @@ semester2date = {
   'summer': '04-01'
 }
 
-contents = """`{{ page.keywords | join: '``' }}`
-
+contents = """
 ## Terms by Role
 
 {% for role in page.roles %}
@@ -62,9 +61,7 @@ for i, crs in enumerate(courses,1):
   cdate = f"{recent_year}-{semester2date.get(recent_semester)}"
 
   ckeywords = crs.get('keywords')
-  keywords_string = "keywords:"
-  for w in ckeywords:
-    keywords_string += f"\n  - {w}"
+  keywords_string = f"tags: [{ ','.join(ckeywords) }]"
 
   ctype = crs.get('type')
   cschool = crs.get('school')
@@ -78,6 +75,7 @@ for i, crs in enumerate(courses,1):
     f.write(
 f'''---
 title: "{ctitle}"
+category: {crs.get('category')}
 collection: {collection}
 type: "{ctype}"
 permalink: "{permastart}{url_slug}"

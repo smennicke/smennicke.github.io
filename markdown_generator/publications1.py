@@ -31,6 +31,8 @@ with open("../_data/coauthors.yaml", 'r') as stream:
 # Writing Publications Files
 collection = "publications"
 permastart = "/publications"
+
+temp_cos = list()
 for i, pub in enumerate(bib,1):
   if pub.get('type') == "Unpublished":
     continue
@@ -58,16 +60,21 @@ for i, pub in enumerate(bib,1):
   pub_string += f"permalink: {permastart}/{md_filename}\n"
   pub_string += f'venue: "{venue}"\n'
   pub_string += f"date: {year}-{month}-01\n"
-  pub_string += f"coauthors:\n"
+  pub_string += f"coauthors:"
   for author in authors.split(" and "):
     author_slug = f"{author[0].lower()}{author.split(' ')[-1].lower()}"
-    # print(author_slug)
-    # for co in coauth:
-      # if not author_slug == co.get('id'):
-      #   print(f"found { author } as coauthor")
-    if not author == 'Stephan Mennicke':
-      pub_string += f"- {author}\n"
-  pub_string += "---\n"
+    if author_slug == 'smennicke' or author_slug in temp_cos:
+      continue
+    elif not coauth.get(author_slug):
+      temp_cos.append(author_slug)
+      with open("../_data/coauthors.yaml", 'a+') as f:
+        f.write(f"""{author_slug}:
+  name: \"{author}\"
+  affiliation:
+  url:
+""")
+    pub_string += f"\n- {author_slug}"
+  pub_string += "\n---\n"
 
   with open(f"../_publications/{md_filename}.md", 'w') as f:
     f.write(pub_string)

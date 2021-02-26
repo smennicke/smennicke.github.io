@@ -14,3 +14,83 @@ lluthmann:
   name: "Lars Luthmann"
   affiliation: "TU Darmstadt"
   url: "https://www.mais.informatik.tu-darmstadt.de/Lars_Luthmann.html"
+nlohmann:
+  name: "Niels Lohmann"
+  affiliation:
+  url:
+csura:
+  name: "Christian Sura"
+  affiliation:
+  url:
+hballer:
+  name: "Hauke Baller"
+  affiliation:
+  url:
+lribbeck:
+  name: "Lars Ribbeck"
+  affiliation:
+  url:
+jschicke-uffmann:
+  name: "Jens-Wolfhard Schicke-Uffmann"
+  affiliation:
+  url:
+ugoltz:
+  name: "Ursula Goltz"
+  affiliation:
+  url:
+jschroeter:
+  name: "Julia Schroeter"
+  affiliation:
+  url:
+twinkelmann:
+  name: "Tim Winkelmann"
+  affiliation:
+  url:
+aknüppel:
+  name: "Alexander Knüppel"
+  affiliation:
+  url:
+tthüm:
+  name: "Thomas Thüm"
+  affiliation:
+  url:
+jmeinicke:
+  name: "Jens Meinicke"
+  affiliation:
+  url:
+ischaefer:
+  name: "Ina Schaefer"
+  affiliation:
+  url:
+dnagel:
+  name: "Denis Nagel"
+  affiliation:
+  url:
+naumann:
+  name: "Niklas Aumann"
+  affiliation:
+  url:
+tprehn:
+  name: "Tobias Prehn"
+  affiliation:
+  url:
+hkroll:
+  name: "Hermann Kroll"
+  affiliation:
+  url:
+rglabbeek:
+  name: "Rob van Glabbeek"
+  affiliation:
+  url:
+clippert:
+  name: "Christopher Lippert"
+  affiliation:
+  url:
+taffeldt:
+  name: "Till Affeldt"
+  affiliation:
+  url:
+pehler:
+  name: "Philipp Ehler"
+  affiliation:
+  url:
