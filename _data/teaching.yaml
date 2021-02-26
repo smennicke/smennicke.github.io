@@ -1,0 +1,50 @@
+- id: FCT
+  title: "Foundations of Complexity Theory"
+  keywords:
+    - "theoretical computer science"
+    - "complexity theory"
+    - "Turing machines"
+    - "computational models"
+    - "foundations of computing"
+  type: "Graduate Course (M.Sc.)"
+  school: "TU Dresden"
+  department: "Faculty of Computer Science"
+  institute: "Knowledge-Based Systems Group"
+  location: "Dresden, Germany"
+  semester:
+    - "2020-winter"
+- id: RDB2
+  title: "Relational Database Systems II"
+  keywords:
+    - "datbase management systems"
+    - "dbms"
+    - "implementation techniques"
+    - "query optimization"
+    - "transaction management"
+    - "ACID"
+  type: "Graduate Course (M.Sc.)"
+  school: "TU Braunschweig"
+  department: "Carl-Friedrich-Gauß Faculty"
+  institute: "Institut für Informationssysteme"
+  location: "Braunschweig, Germany"
+  semester:
+    - "2019-summer"
+- id: PA
+  title: "Prozessalgebra"
+  keywords:
+    - "process algebra"
+    - "process calculi"
+    - "CCS"
+    - "Petri nets"
+    - "concurrency theory"
+    - "verification"
+  type: "Graduate Course (M.Sc.)"
+  school: "TU Braunschweig"
+  department: "Carl-Friedrich-Gauß Faculty"
+  institute: "Institut für Programmierung und Reaktive Systeme"
+  location: "Braunschweig, Germany"
+  semester:
+    - "2017-winter"
+    - "2016-winter"
+    - "2015-winter"
+    - "2014-winter"
