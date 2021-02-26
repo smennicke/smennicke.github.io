@@ -2,6 +2,7 @@ import yaml
 import io
 import string
 
+# prepare monthly mapping
 monthmap = {
   "January": "01",
   "February": "02",
@@ -18,18 +19,21 @@ monthmap = {
   "None": "01"
 }
 
+# load yaml files into data structures
 with open("my_publications.yaml", 'r') as stream:
   bib = yaml.safe_load(stream)
-
 with open("../_data/coauthors.yaml", 'r') as stream:
   coauth = yaml.safe_load(stream)
 
 # print(coauth)
 # print(bib)
 
+# Writing Publications Files
 collection = "publications"
 permastart = "/publications"
 for i, pub in enumerate(bib,1):
+  if pub.get('type') == "Unpublished":
+    continue
 
   title = pub.get('title')
   authors = pub.get('authors')
@@ -67,3 +71,28 @@ for i, pub in enumerate(bib,1):
 
   with open(f"../_publications/{md_filename}.md", 'w') as f:
     f.write(pub_string)
+
+# Writing Talks Files (also included in bib)
+collection = "talks"
+permastart = "/talks"
+for i, talk in enumerate(bib, 1):
+  if talk.get('type') == "Unpublished":
+    # print(talk)
+    title = talk.get('title')
+    date = talk.get('date')
+    url_slug = talk.get('url_slug')
+
+    md_filename = f"{date}-{url_slug}"
+
+    talk_string = "---\n"
+    talk_string += f'title: "{title}"\n'
+    talk_string += f'collection: {collection}\n'
+    # talk_string += f'type: {type}'
+    talk_string += f'permalink: {permastart}/{md_filename}\n'
+    # talk_string += f'venue: {venue}'
+    talk_string += f'date: {date}\n'
+    # talk_string += f'location: {location}\n'
+    talk_string += "---\n"
+
+    with open(f"../_talks/{md_filename}.md", 'w') as f:
+      f.write(talk_string)

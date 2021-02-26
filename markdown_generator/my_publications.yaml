@@ -1,234 +1,406 @@
 - id: Lohmann2010
+  type: InProceedings
   title: "The Petri Net API A Collection of Petri Net-related Functions"
   proceedings: "Proceedings of the 17th German Workshop on Algorithms and Tools for Petri Nets, Cottbus, Germany, October 07-08, 2010"
+  
+  
+  
   authors: "Niels Lohmann and Stephan Mennicke and Christian Sura"
   place: "Cottbus, Germany"
   url_slug: awpn2010
+  
   issued:
   - year: 2010
     month: "October"
 - id: Mennicke2012
+  type: InProceedings
   title: "An Operational Petri Net Semantics for the Join-Calculus"
   proceedings: "Proceedings Combined 19th International Workshop on Expressiveness in Concurrency and 9th Workshop on Structured Operational Semantics, EXPRESS/SOS 2012, Newcastle upon Tyne, UK, September 3, 2012"
+  
+  
+  
   authors: "Stephan Mennicke"
   place: "Newcastle upon Tyne, United Kingdom"
   url_slug: express2012
+  
   issued:
   - year: 2012
     month: "September"
 - id: Lochau2014
+  type: InProceedings
   title: "DeltaCCS: A Core Calculus for Behavioral Change"
   proceedings: "Leveraging Applications of Formal Methods, Verification and Validation. Technologies for Mastering Change - 6th International Symposium, ISoLA 2014, Imperial, Corfu, Greece, October 8-11, 2014, Proceedings, Part I"
+  
+  
+  
   authors: "Malte Lochau and Stephan Mennicke and Hauke Baller and Lars Ribbeck"
   place: "Corfu, Greece"
   url_slug: isola2014
+  
   issued:
   - year: 2014
     month: "October"
 - id: Mennicke2014
+  type: InProceedings
   title: "On the Step Branching Time Closure of Free-Choice Petri Nets"
   proceedings: "Formal Techniques for Distributed Objects, Components, and Systems - 34th IFIP WG 6.1 International Conference, FORTE 2014, Held as Part of the 9th International Federated Conference on Distributed Computing Techniques, DisCoTec 2014, Berlin, Germany, June 3-5, 2014. Proceedings"
+  
+  
+  
   authors: "Stephan Mennicke and Jens-Wolfhard Schicke-Uffmann and Ursula Goltz"
   place: "Berlin, Germany"
   url_slug: forte2014
+  
   issued:
   - year: 2014
     month: "June"
 - id: Mennicke2014a
+  type: InProceedings
   title: "Automated verification of feature model configuration processes based on workflow Petri nets"
   proceedings: "18th International Software Product Line Conference, SPLC '14, Florence, Italy, September 15-19, 2014"
+  
+  
+  
   authors: "Stephan Mennicke and Malte Lochau and Julia Schroeter and Tim Winkelmann"
   place: "Florence, Italy"
   url_slug: splc2014
+  
   issued:
   - year: 2014
     month: "September"
 - id: Luthmann2015
+  type: InProceedings
   title: "Towards an I/O Conformance Testing Theory for Software Product Lines based on Modal Interface Automata"
   proceedings: "Proceedings 6th Workshop on Formal Methods and Analysis in SPL Engineering, FMSPLE@ETAPS 2015, London, UK, 11 April 2015"
+  
+  
+  
   authors: "Lars Luthmann and Stephan Mennicke and Malte Lochau"
   place: "London, United Kingdom"
   url_slug: fmsple2015
+  
   issued:
   - year: 2015
     month: "April"
 - id: Lochau2016
+  type: Article
   title: "Incremental model checking of delta-oriented software product lines"
+  
   journal: "J. Log. Algebraic Methods Program."
+  
+  
   authors: "Malte Lochau and Stephan Mennicke and Hauke Baller and Lars Ribbeck"
   place: ""
   url_slug: jlamp2016
+  
   issued:
   - year: 2016
     month: "January"
 - id: Luthmann2016
+  type: InProceedings
   title: "Compositionality, Decompositionality and Refinement in Input/Output Conformance Testing"
   proceedings: "Formal Aspects of Component Software - 13th International Conference, FACS 2016, Besançon, France, October 19-21, 2016, Revised Selected Papers"
+  
+  
+  
   authors: "Lars Luthmann and Stephan Mennicke and Malte Lochau"
   place: "Besançon, France"
   url_slug: facs2016
+  
   issued:
   - year: 2016
     month: "October"
 - id: Luthmann2016a
+  type: Article
   title: "Compositionality, Decompositionality and Refinement in Input/Output Conformance Testing - Technical Report"
+  
   journal: "CoRR"
+  
+  
   authors: "Lars Luthmann and Stephan Mennicke and Malte Lochau"
   place: ""
   url_slug: techrep2016
+  
   issued:
   - year: 2016
     month: "June"
 - id: Knueppel2017
+  type: InProceedings
   title: "Is there a mismatch between real-world feature models and product-line research?"
   proceedings: "Proceedings of the 2017 11th Joint Meeting on Foundations of Software Engineering, ESEC/FSE 2017, Paderborn, Germany, September 4-8, 2017"
+  
+  
+  
   authors: "Alexander Knüppel and Thomas Thüm and Stephan Mennicke and Jens Meinicke and Ina Schaefer"
   place: "Paderborn, Germany"
   url_slug: fse2017
+  
   issued:
   - year: 2017
     month: "September"
 - id: Mennicke2017
+  type: InProceedings
   title: "Querying Graph Databases: What Do Graph Patterns Mean?"
   proceedings: "Conceptual Modeling - 36th International Conference, ER 2017, Valencia, Spain, November 6-9, 2017, Proceedings"
+  
+  
+  
   authors: "Stephan Mennicke and Jan-Christoph Kalo and Wolf-Tilo Balke"
   place: "Valencia, Spain"
   url_slug: er2017
+  
   issued:
   - year: 2017
     month: "November"
 - id: Mennicke2017a
+  type: InProceedings
   title: "Reconstructing Graph Pattern Matches Using SPARQL"
   proceedings: "Lernen, Wissen, Daten, Analysen (LWDA) Conference Proceedings, Rostock, Germany, September 11-13, 2017"
+  
+  
+  
   authors: "Stephan Mennicke and Denis Nagel and Jan-Christoph Kalo and Niklas Aumann and Wolf-Tilo Balke"
   place: "Rostock, Germany"
   url_slug: lwda2017
+  
   issued:
   - year: 2017
     month: "September"
 - id: Prehn2017
+  type: InProceedings
   title: "Keep it Fair: Equivalences"
   proceedings: "Proceedings 10th Interaction and Concurrency Experience, ICE@DisCoTec 2017, Neuchâtel, Switzerland, 21-22nd June 2017"
+  
+  
+  
   authors: "Tobias Prehn and Stephan Mennicke"
   place: "Neuchâtel, Switzerland"
   url_slug: ice2017
+  
   issued:
   - year: 2017
     month: "June"
 - id: Knueppel2018
+  type: InProceedings
   title: "Is There a Mismatch between Real-World Feature Models and Product-Line Research?"
   proceedings: "Software Engineering und Software Management 2018, Fachtagung des GI-Fachbereichs Softwaretechnik, SE 2018, 5.-9. März 2018, Ulm, Germany"
+  
+  
+  
   authors: "Alexander Knüppel and Thomas Thüm and Stephan Mennicke and Jens Meinicke and Ina Schaefer"
   place: "Ulm, Germany"
   url_slug: se2018
+  
   issued:
   - year: 2018
     month: "March"
 - id: Mennicke2018
+  type: Article
   title: "Using Queries as Schema-Templates for Graph Databases"
+  
   journal: "Datenbank-Spektrum"
+  
+  
   authors: "Stephan Mennicke and Jan-Christoph Kalo and Wolf-Tilo Balke"
   place: ""
   url_slug: datenbankspektrum2018
+  
   issued:
   - year: 2018
     month: "May"
 - id: Mennicke2018a
+  type: Article
   title: "Fast Dual Simulation Processing of Graph Database Queries (Supplement)"
+  
   journal: "CoRR"
+  
+  
   authors: "Stephan Mennicke and Jan-Christoph Kalo and Denis Nagel and Hermann Kroll and Wolf-Tilo Balke"
   place: ""
   url_slug: techreport2018
+  
   issued:
   - year: 2018
     month: "October"
-- id: Glabbeek2019
-  title: "Stronger Validity Criteria for Encoding Synchrony"
-  proceedings: "The Art of Modelling Computational Systems: A Journey from Logic and Concurrency to Security and Privacy - Essays Dedicated to Catuscia Palamidessi on the Occasion of Her 60th Birthday"
-  authors: "Rob van Glabbeek and Ursula Goltz and Christopher Lippert and Stephan Mennicke"
-  place: "France"
-  url_slug: festschrift2019
+- id: ER2019
+  type: Unpublished
+  title: "Modal Schema Graphs for Graph Databases"
+  
+  
+  event: "Conceptual Modeling - International Conference"
+  
+  authors: "Stephan Mennicke"
+  place: "Salvador, Brazil"
+  url_slug: er2019
+  date: "2019-11-07"
   issued:
   - year: 2019
     month: "November"
+- id: Glabbeek2019
+  type: InProceedings
+  title: "Stronger Validity Criteria for Encoding Synchrony"
+  proceedings: "The Art of Modelling Computational Systems: A Journey from Logic and Concurrency to Security and Privacy - Essays Dedicated to Catuscia Palamidessi on the Occasion of Her 60th Birthday"
+  
+  
+  
+  authors: "Rob van Glabbeek and Ursula Goltz and Christopher Lippert and Stephan Mennicke"
+  place: "France"
+  url_slug: festschrift2019
+  
+  issued:
+  - year: 2019
+    month: "November"
+- id: ICDE2019
+  type: Unpublished
+  title: "Fast Dual Simulation Processing of Graph Database Queries"
+  
+  
+  event: "International Conference on Data Engineering"
+  
+  authors: "Stephan Mennicke"
+  place: "Macao, China"
+  url_slug: icde2019
+  date: "2019-04-09"
+  issued:
+  - year: 2019
+    month: "April"
 - id: Luthmann2019
+  type: Article
   title: "Unifying modal interface theories and compositional input/output conformance testing"
+  
   journal: "Sci. Comput. Program."
+  
+  
   authors: "Lars Luthmann and Stephan Mennicke and Malte Lochau"
   place: ""
   url_slug: scp2019
+  
   issued:
   - year: 2019
     month: "November"
 - id: Mennicke2019
+  type: Article
   title: "Keep it fair: Equivalence and composition"
+  
   journal: "J. Log. Algebraic Methods Program."
+  
+  
   authors: "Stephan Mennicke and Tobias Prehn"
   place: ""
   url_slug: jlamp2019
+  
   issued:
   - year: 2019
     month: "January"
 - id: Mennicke2019a
+  type: InProceedings
   title: "Modal Schema Graphs for Graph Databases"
   proceedings: "Conceptual Modeling - 38th International Conference, ER 2019, Salvador, Brazil, November 4-7, 2019, Proceedings"
+  
+  
+  
   authors: "Stephan Mennicke"
   place: "Salvador, Brazil"
   url_slug: er2019
+  
   issued:
   - year: 2019
     month: "November"
 - id: Mennicke2019b
+  type: InProceedings
   title: "Fast Dual Simulation Processing of Graph Database Queries"
   proceedings: "35th IEEE International Conference on Data Engineering, ICDE 2019, Macao, China, April 8-11, 2019"
+  
+  
+  
   authors: "Stephan Mennicke and Jan-Christoph Kalo and Denis Nagel and Hermann Kroll and Wolf-Tilo Balke"
   place: "Macao, China"
   url_slug: icde2019
+  
   issued:
   - year: 2019
     month: "April"
 - id: Affeldt2020
+  type: InProceedings
   title: "Modeling Interdependent Preferences over Incomplete Knowledge Graph Query Answers"
   proceedings: "Proceedings of the Conference Lernen, Wissen, Daten, Analysen, Online, September 9-11, 2020"
+  
+  
+  
   authors: "Till Affeldt and Stephan Mennicke and Wolf-Tilo Balke"
   place: "Online (Bonn, Germany)"
   url_slug: lwda2020
+  
   issued:
   - year: 2020
     month: "September"
 - id: Affeldt2020a
+  type: InProceedings
   title: "Preference-driven Control over Incompleteness of Knowledge Graph Query Answers"
   proceedings: "WebSci '20: 12th ACM Conference on Web Science, Southampton, UK, July 6-10, 2020"
+  
+  
+  
   authors: "Till Affeldt and Stephan Mennicke and Wolf-Tilo Balke"
   place: "Online (Southampton, United Kingdom)"
   url_slug: websci2020
+  
   issued:
   - year: 2020
     month: "July"
 - id: Kalo2020
+  type: InProceedings
   title: "Detecting Synonymous Properties by Shared Data-Driven Definitions"
   proceedings: "The Semantic Web - 17th International Conference, ESWC 2020, Heraklion, Crete, Greece, May 31-June 4, 2020, Proceedings"
+  
+  
+  
   authors: "Jan-Christoph Kalo and Stephan Mennicke and Philipp Ehler and Wolf-Tilo Balke"
   place: "Online (Heraklion, Crete)"
   url_slug: eswc2020
+  
   issued:
   - year: 2020
     month: "May"
 - id: Kroll2020
+  type: InProceedings
   title: "Context-Compatible Information Fusion for Scientific Knowledge Graphs"
   proceedings: "Digital Libraries for Open Knowledge - 24th International Conference on Theory and Practice of Digital Libraries, TPDL 2020, Lyon, France, August 25-27, 2020, Proceedings"
+  
+  
+  
   authors: "Hermann Kroll and Jan-Christoph Kalo and Denis Nagel and Stephan Mennicke and Wolf-Tilo Balke"
   place: "Online (Lyon, France)"
   url_slug: tpdl2020
+  
   issued:
   - year: 2020
     month: "August"
 - id: Mennicke2020
+  type: PhdThesis
   title: "Non-Standard Semantics for Graph Query Languages"
+  
+  
+  
   school: "Braunschweig University of Technology, Germany"
   authors: "Stephan Mennicke"
   place: "Braunschweig, Germany"
   url_slug: phdthesis2020
+  
+  issued:
+  - year: 2020
+    month: "March"
+- id: PhD2020
+  type: Unpublished
+  title: "Non-Standard Semantics for Graph Query Languages"
+  
+  
+  event: "PhD Defense"
+  
+  authors: "Stephan Mennicke"
+  place: "Braunschweig, Germany"
+  url_slug: defense2020
+  date: "2020-03-11"
   issued:
   - year: 2020
     month: "March"
