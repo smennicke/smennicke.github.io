@@ -52,19 +52,19 @@ aknüppel:
   url:
 tthüm:
   name: "Thomas Thüm"
-  affiliation:
-  url:
+  affiliation: "Universität Ulm"
+  url: https://www.uni-ulm.de/in/sp/team/thuem/
 jmeinicke:
   name: "Jens Meinicke"
   affiliation:
   url:
 ischaefer:
   name: "Ina Schaefer"
-  affiliation:
-  url:
+  affiliation: "TU Braunschweig"
+  url: https://www.tu-braunschweig.de/isf/team/schaefer
 dnagel:
   name: "Denis Nagel"
-  affiliation:
+  affiliation: "TU Braunschweig"
   url:
 naumann:
   name: "Niklas Aumann"
@@ -72,16 +72,16 @@ naumann:
   url:
 tprehn:
   name: "Tobias Prehn"
-  affiliation:
+  affiliation: "TU Berlin"
   url:
 hkroll:
   name: "Hermann Kroll"
-  affiliation:
+  affiliation: "TU Braunschweig"
   url:
 rglabbeek:
   name: "Rob van Glabbeek"
-  affiliation:
-  url:
+  affiliation: "Data61, CSIRO, Sydney, Australia"
+  url: http://theory.stanford.edu/~rvg/
 clippert:
   name: "Christopher Lippert"
   affiliation:
