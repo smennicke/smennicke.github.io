@@ -1,0 +1,9 @@
+- id: \citationkey
+  title: "\format[RemoveBrackets && FormatChars]{\title}"
+  \begin{booktitle}proceedings: "\format[FormatChars]{\booktitle}"\end{booktitle}\begin{journal}journal: "\format[FormatChars]{\journal}"\end{journal}\begin{school}school: "\format[FormatChars]{\school}"\end{school}
+  authors: "\format[\RemoveBrackets && FormatChars]{\author}"
+  place: "\address"
+  url_slug: \format[ToLowerCase]{\note}\year
+  issued:
+  - year: \year
+    month: "\month"

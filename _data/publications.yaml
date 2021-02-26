@@ -1,0 +1,130 @@
+- id: Lohmann2010
+  title: "The Petri Net API A Collection of Petri Net-related Functions"
+  proceedings: "Proceedings of the 17th German Workshop on Algorithms and Tools for Petri Nets, Cottbus, Germany, October 07-08, 2010"
+  authors: "Niels Lohmann and Stephan Mennicke and Christian Sura"
+  issued: 2010
+- id: Mennicke2012
+  title: "An Operational Petri Net Semantics for the Join-Calculus"
+  proceedings: "Proceedings Combined 19th International Workshop on Expressiveness in Concurrency and 9th Workshop on Structured Operational Semantics, EXPRESS/SOS 2012, Newcastle upon Tyne, UK, September 3, 2012"
+  authors: "Stephan Mennicke"
+  issued: 2012
+- id: Lochau2014
+  title: "DeltaCCS: A Core Calculus for Behavioral Change"
+  proceedings: "Leveraging Applications of Formal Methods, Verification and Validation. Technologies for Mastering Change - 6th International Symposium, ISoLA 2014, Imperial, Corfu, Greece, October 8-11, 2014, Proceedings, Part I"
+  authors: "Malte Lochau and Stephan Mennicke and Hauke Baller and Lars Ribbeck"
+  issued: 2014
+- id: Mennicke2014
+  title: "On the Step Branching Time Closure of Free-Choice Petri Nets"
+  proceedings: "Formal Techniques for Distributed Objects, Components, and Systems - 34th IFIP WG 6.1 International Conference, FORTE 2014, Held as Part of the 9th International Federated Conference on Distributed Computing Techniques, DisCoTec 2014, Berlin, Germany, June 3-5, 2014. Proceedings"
+  authors: "Stephan Mennicke and Jens-Wolfhard Schicke-Uffmann and Ursula Goltz"
+  issued: 2014
+- id: Mennicke2014a
+  title: "Automated verification of feature model configuration processes based on workflow Petri nets"
+  proceedings: "18th International Software Product Line Conference, SPLC '14, Florence, Italy, September 15-19, 2014"
+  authors: "Stephan Mennicke and Malte Lochau and Julia Schroeter and Tim Winkelmann"
+  issued: 2014
+- id: Luthmann2015
+  title: "Towards an I/O Conformance Testing Theory for Software Product Lines based on Modal Interface Automata"
+  proceedings: "Proceedings 6th Workshop on Formal Methods and Analysis in SPL Engineering, FMSPLE@ETAPS 2015, London, UK, 11 April 2015"
+  authors: "Lars Luthmann and Stephan Mennicke and Malte Lochau"
+  issued: 2015
+- id: Lochau2016
+  title: "Incremental model checking of delta-oriented software product lines"
+  journal: "J. Log. Algebraic Methods Program."
+  authors: "Malte Lochau and Stephan Mennicke and Hauke Baller and Lars Ribbeck"
+  issued: 2016
+- id: Luthmann2016
+  title: "Compositionality, Decompositionality and Refinement in Input/Output Conformance Testing"
+  proceedings: "Formal Aspects of Component Software - 13th International Conference, FACS 2016, Besançon, France, October 19-21, 2016, Revised Selected Papers"
+  authors: "Lars Luthmann and Stephan Mennicke and Malte Lochau"
+  issued: 2016
+- id: Luthmann2016a
+  title: "Compositionality, Decompositionality and Refinement in Input/Output Conformance Testing - Technical Report"
+  journal: "CoRR"
+  authors: "Lars Luthmann and Stephan Mennicke and Malte Lochau"
+  issued: 2016
+- id: Knueppel2017
+  title: "Is there a mismatch between real-world feature models and product-line research?"
+  proceedings: "Proceedings of the 2017 11th Joint Meeting on Foundations of Software Engineering, ESEC/FSE 2017, Paderborn, Germany, September 4-8, 2017"
+  authors: "Alexander Knüppel and Thomas Thüm and Stephan Mennicke and Jens Meinicke and Ina Schaefer"
+  issued: 2017
+- id: Mennicke2017
+  title: "Querying Graph Databases: What Do Graph Patterns Mean?"
+  proceedings: "Conceptual Modeling - 36th International Conference, ER 2017, Valencia, Spain, November 6-9, 2017, Proceedings"
+  authors: "Stephan Mennicke and Jan-Christoph Kalo and Wolf-Tilo Balke"
+  issued: 2017
+- id: Mennicke2017a
+  title: "Reconstructing Graph Pattern Matches Using SPARQL"
+  proceedings: "Lernen, Wissen, Daten, Analysen (LWDA) Conference Proceedings, Rostock, Germany, September 11-13, 2017"
+  authors: "Stephan Mennicke and Denis Nagel and Jan-Christoph Kalo and Niklas Aumann and Wolf-Tilo Balke"
+  issued: 2017
+- id: Prehn2017
+  title: "Keep it Fair: Equivalences"
+  proceedings: "Proceedings 10th Interaction and Concurrency Experience, ICE@DisCoTec 2017, Neuchâtel, Switzerland, 21-22nd June 2017"
+  authors: "Tobias Prehn and Stephan Mennicke"
+  issued: 2017
+- id: Knueppel2018
+  title: "Is There a Mismatch between Real-World Feature Models and Product-Line Research?"
+  proceedings: "Software Engineering und Software Management 2018, Fachtagung des GI-Fachbereichs Softwaretechnik, SE 2018, 5.-9. März 2018, Ulm, Germany"
+  authors: "Alexander Knüppel and Thomas Thüm and Stephan Mennicke and Jens Meinicke and Ina Schaefer"
+  issued: 2018
+- id: Mennicke2018
+  title: "Using Queries as Schema-Templates for Graph Databases"
+  journal: "Datenbank-Spektrum"
+  authors: "Stephan Mennicke and Jan-Christoph Kalo and Wolf-Tilo Balke"
+  issued: 2018
+- id: Mennicke2018a
+  title: "Fast Dual Simulation Processing of Graph Database Queries (Supplement)"
+  journal: "CoRR"
+  authors: "Stephan Mennicke and Jan-Christoph Kalo and Denis Nagel and Hermann Kroll and Wolf-Tilo Balke"
+  issued: 2018
+- id: Glabbeek2019
+  title: "Stronger Validity Criteria for Encoding Synchrony"
+  proceedings: "The Art of Modelling Computational Systems: A Journey from Logic and Concurrency to Security and Privacy - Essays Dedicated to Catuscia Palamidessi on the Occasion of Her 60th Birthday"
+  authors: "Rob van Glabbeek and Ursula Goltz and Christopher Lippert and Stephan Mennicke"
+  issued: 2019
+- id: Luthmann2019
+  title: "Unifying modal interface theories and compositional input/output conformance testing"
+  journal: "Sci. Comput. Program."
+  authors: "Lars Luthmann and Stephan Mennicke and Malte Lochau"
+  issued: 2019
+- id: Mennicke2019
+  title: "Keep it fair: Equivalence and composition"
+  journal: "J. Log. Algebraic Methods Program."
+  authors: "Stephan Mennicke and Tobias Prehn"
+  issued: 2019
+- id: Mennicke2019a
+  title: "Modal Schema Graphs for Graph Databases"
+  proceedings: "Conceptual Modeling - 38th International Conference, ER 2019, Salvador, Brazil, November 4-7, 2019, Proceedings"
+  authors: "Stephan Mennicke"
+  issued: 2019
+- id: Mennicke2019b
+  title: "Fast Dual Simulation Processing of Graph Database Queries"
+  proceedings: "35th IEEE International Conference on Data Engineering, ICDE 2019, Macao, China, April 8-11, 2019"
+  authors: "Stephan Mennicke and Jan-Christoph Kalo and Denis Nagel and Hermann Kroll and Wolf-Tilo Balke"
+  issued: 2019
+- id: Affeldt2020
+  title: "Modeling Interdependent Preferences over Incomplete Knowledge Graph Query Answers"
+  proceedings: "Proceedings of the Conference 'Lernen, Wissen, Daten, Analysen', Online, September 9-11, 2020"
+  authors: "Till Affeldt and Stephan Mennicke and Wolf-Tilo Balke"
+  issued: 2020
+- id: Affeldt2020a
+  title: "Preference-driven Control over Incompleteness of Knowledge Graph Query Answers"
+  proceedings: "WebSci '20: 12th ACM Conference on Web Science, Southampton, UK, July 6-10, 2020"
+  authors: "Till Affeldt and Stephan Mennicke and Wolf-Tilo Balke"
+  issued: 2020
+- id: Kalo2020
+  title: "Detecting Synonymous Properties by Shared Data-Driven Definitions"
+  proceedings: "The Semantic Web - 17th International Conference, ESWC 2020, Heraklion, Crete, Greece, May 31-June 4, 2020, Proceedings"
+  authors: "Jan-Christoph Kalo and Stephan Mennicke and Philipp Ehler and Wolf-Tilo Balke"
+  issued: 2020
+- id: Kroll2020
+  title: "Context-Compatible Information Fusion for Scientific Knowledge Graphs"
+  proceedings: "Digital Libraries for Open Knowledge - 24th International Conference on Theory and Practice of Digital Libraries, TPDL 2020, Lyon, France, August 25-27, 2020, Proceedings"
+  authors: "Hermann Kroll and Jan-Christoph Kalo and Denis Nagel and Stephan Mennicke and Wolf-Tilo Balke"
+  issued: 2020
+- id: Mennicke2020
+  title: "Non-Standard Semantics for Graph Query Languages"
+  school: "Braunschweig University of Technology, Germany"
+  authors: "Stephan Mennicke"
+  issued: 2020

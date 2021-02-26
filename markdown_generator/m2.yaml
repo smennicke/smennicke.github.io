@@ -1,0 +1,214 @@
+references:
+- id: Lohmann2010
+  type: no-type
+  author:
+  - literal: "Niels Lohmann and Stephan Mennicke and Christian Sura"
+  title: "The Petri Net {API} {A} Collection of Petri Net-related Functions"
+  issued: 2010
+  url: http://ceur-ws.org/Vol-643/paper18.pdf
+  volume: 643
+- id: Mennicke2012
+  type: no-type
+  author:
+  - literal: "Stephan Mennicke"
+  title: "An Operational Petri Net Semantics for the Join-Calculus"
+  issued: 2012
+  doi: 10.4204/EPTCS.89.10
+  volume: 89
+- id: Lochau2014
+  type: no-type
+  author:
+  - literal: "Malte Lochau and Stephan Mennicke and Hauke Baller and Lars Ribbeck"
+  title: "DeltaCCS: {A} Core Calculus for Behavioral Change"
+  issued: 2014
+  url: https://doi.org/10.1007/978-3-662-45234-9_23
+  doi: 10.1007/978-3-662-45234-9\_23
+  volume: 8802
+- id: Mennicke2014
+  type: no-type
+  author:
+  - literal: "Stephan Mennicke and Jens{-}Wolfhard Schicke{-}Uffmann and Ursula Goltz"
+  title: "On the Step Branching Time Closure of Free-Choice Petri Nets"
+  issued: 2014
+  url: https://doi.org/10.1007/978-3-662-43613-4_15
+  doi: 10.1007/978-3-662-43613-4\_15
+  volume: 8461
+- id: Mennicke2014a
+  type: no-type
+  author:
+  - literal: "Stephan Mennicke and Malte Lochau and Julia Schroeter and Tim Winkelmann"
+  title: "Automated verification of feature model configuration processes based on workflow Petri nets"
+  issued: 2014
+  doi: 10.1145/2648511.2648518
+- id: Luthmann2015
+  type: no-type
+  author:
+  - literal: "Lars Luthmann and Stephan Mennicke and Malte Lochau"
+  title: "Towards an {I/O} Conformance Testing Theory for Software Product Lines based on Modal Interface Automata"
+  issued: 2015
+  doi: 10.4204/EPTCS.182.1
+  volume: 182
+- id: Lochau2016
+  type: article
+  author:
+  - literal: "Malte Lochau and Stephan Mennicke and Hauke Baller and Lars Ribbeck"
+  title: "Incremental model checking of delta-oriented software product lines"
+  issued: 2016
+  doi: 10.1016/j.jlamp.2015.09.004
+  volume: 85
+  number: 1
+- id: Luthmann2016
+  type: no-type
+  author:
+  - literal: "Lars Luthmann and Stephan Mennicke and Malte Lochau"
+  title: "Compositionality, Decompositionality and Refinement in Input/Output Conformance Testing"
+  issued: 2016
+  url: https://doi.org/10.1007/978-3-319-57666-4_5
+  doi: 10.1007/978-3-319-57666-4\_5
+  volume: 10231
+- id: Luthmann2016a
+  type: article
+  author:
+  - literal: "Lars Luthmann and Stephan Mennicke and Malte Lochau"
+  title: "Compositionality, Decompositionality and Refinement in Input/Output Conformance Testing - Technical Report"
+  issued: 2016
+  url: http://arxiv.org/abs/1606.09035
+  volume: abs/1606.09035
+- id: Knueppel2017
+  type: no-type
+  author:
+  - literal: "Alexander Kn{\"{u}}ppel and Thomas Th{\"{u}}m and Stephan Mennicke and Jens Meinicke and Ina Schaefer"
+  title: "Is there a mismatch between real-world feature models and product-line research?"
+  issued: 2017
+  doi: 10.1145/3106237.3106252
+- id: Mennicke2017
+  type: no-type
+  author:
+  - literal: "Stephan Mennicke and Jan{-}Christoph Kalo and Wolf{-}Tilo Balke"
+  title: "Querying Graph Databases: What Do Graph Patterns Mean?"
+  issued: 2017
+  url: https://doi.org/10.1007/978-3-319-69904-2_11
+  doi: 10.1007/978-3-319-69904-2\_11
+  volume: 10650
+- id: Mennicke2017a
+  type: no-type
+  author:
+  - literal: "Stephan Mennicke and Denis Nagel and Jan{-}Christoph Kalo and Niklas Aumann and Wolf{-}Tilo Balke"
+  title: "Reconstructing Graph Pattern Matches Using {SPARQL}"
+  issued: 2017
+  url: http://ceur-ws.org/Vol-1917/paper24.pdf
+  volume: 1917
+- id: Prehn2017
+  type: no-type
+  author:
+  - literal: "Tobias Prehn and Stephan Mennicke"
+  title: "Keep it Fair: Equivalences"
+  issued: 2017
+  doi: 10.4204/EPTCS.261.4
+  volume: 261
+- id: Knueppel2018
+  type: no-type
+  author:
+  - literal: "Alexander Kn{\"{u}}ppel and Thomas Th{\"{u}}m and Stephan Mennicke and Jens Meinicke and Ina Schaefer"
+  title: "Is There a Mismatch between Real-World Feature Models and Product-Line Research?"
+  issued: 2018
+  url: https://dl.gi.de/20.500.12116/16312
+  volume: {P-279}
+- id: Mennicke2018
+  type: article
+  author:
+  - literal: "Stephan Mennicke and Jan{-}Christoph Kalo and Wolf{-}Tilo Balke"
+  title: "Using Queries as Schema-Templates for Graph Databases"
+  issued: 2018
+  doi: 10.1007/s13222-018-0286-9
+  volume: 18
+  number: 2
+- id: Mennicke2018a
+  type: article
+  author:
+  - literal: "Stephan Mennicke and Jan{-}Christoph Kalo and Denis Nagel and Hermann Kroll and Wolf{-}Tilo Balke"
+  title: "Fast Dual Simulation Processing of Graph Database Queries (Supplement)"
+  issued: 2018
+  url: http://arxiv.org/abs/1810.09355
+  volume: abs/1810.09355
+- id: Glabbeek2019
+  type: no-type
+  author:
+  - literal: "Rob van Glabbeek and Ursula Goltz and Christopher Lippert and Stephan Mennicke"
+  title: "Stronger Validity Criteria for Encoding Synchrony"
+  issued: 2019
+  url: https://doi.org/10.1007/978-3-030-31175-9_11
+  doi: 10.1007/978-3-030-31175-9\_11
+  volume: 11760
+- id: Luthmann2019
+  type: article
+  author:
+  - literal: "Lars Luthmann and Stephan Mennicke and Malte Lochau"
+  title: "Unifying modal interface theories and compositional input/output conformance testing"
+  issued: 2019
+  doi: 10.1016/j.scico.2018.09.008
+  volume: 172
+- id: Mennicke2019
+  type: article
+  author:
+  - literal: "Stephan Mennicke and Tobias Prehn"
+  title: "Keep it fair: Equivalence and composition"
+  issued: 2019
+  doi: 10.1016/j.jlamp.2019.01.004
+  volume: 104
+- id: Mennicke2019a
+  type: no-type
+  author:
+  - literal: "Stephan Mennicke"
+  title: "Modal Schema Graphs for Graph Databases"
+  issued: 2019
+  url: https://doi.org/10.1007/978-3-030-33223-5_41
+  doi: 10.1007/978-3-030-33223-5\_41
+  volume: 11788
+- id: Mennicke2019b
+  type: no-type
+  author:
+  - literal: "Stephan Mennicke and Jan{-}Christoph Kalo and Denis Nagel and Hermann Kroll and Wolf{-}Tilo Balke"
+  title: "Fast Dual Simulation Processing of Graph Database Queries"
+  issued: 2019
+  doi: 10.1109/ICDE.2019.00030
+- id: Affeldt2020
+  type: no-type
+  author:
+  - literal: "Till Affeldt and Stephan Mennicke and Wolf{-}Tilo Balke"
+  title: "Modeling Interdependent Preferences over Incomplete Knowledge Graph Query Answers"
+  issued: 2020
+  url: http://ceur-ws.org/Vol-2738/LWDA2020_paper_7.pdf
+  volume: 2738
+- id: Affeldt2020a
+  type: no-type
+  author:
+  - literal: "Till Affeldt and Stephan Mennicke and Wolf{-}Tilo Balke"
+  title: "Preference-driven Control over Incompleteness of Knowledge Graph Query Answers"
+  issued: 2020
+  doi: 10.1145/3394231.3397911
+- id: Kalo2020
+  type: no-type
+  author:
+  - literal: "Jan{-}Christoph Kalo and Stephan Mennicke and Philipp Ehler and Wolf{-}Tilo Balke"
+  title: "Detecting Synonymous Properties by Shared Data-Driven Definitions"
+  issued: 2020
+  url: https://doi.org/10.1007/978-3-030-49461-2_21
+  doi: 10.1007/978-3-030-49461-2\_21
+  volume: 12123
+- id: Kroll2020
+  type: no-type
+  author:
+  - literal: "Hermann Kroll and Jan{-}Christoph Kalo and Denis Nagel and Stephan Mennicke and Wolf{-}Tilo Balke"
+  title: "Context-Compatible Information Fusion for Scientific Knowledge Graphs"
+  issued: 2020
+  url: https://doi.org/10.1007/978-3-030-54956-5_3
+  doi: 10.1007/978-3-030-54956-5\_3
+  volume: 12246
+- id: Mennicke2020
+  type: thesis
+  author:
+  - literal: "Stephan Mennicke"
+  title: "Non-Standard Semantics for Graph Query Languages"
+  issued: 2020
+  url: http://www.dr.hut-verlag.de/978-3-8439-4500-4.html
