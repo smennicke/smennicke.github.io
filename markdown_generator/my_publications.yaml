@@ -10,7 +10,7 @@
   url_slug: awpn2010
   
   issued:
-  - year: 2010
+    year: 2010
     month: "October"
 - id: Mennicke2012
   type: InProceedings
@@ -24,7 +24,7 @@
   url_slug: express2012
   
   issued:
-  - year: 2012
+    year: 2012
     month: "September"
 - id: Lochau2014
   type: InProceedings
@@ -38,7 +38,7 @@
   url_slug: isola2014
   
   issued:
-  - year: 2014
+    year: 2014
     month: "October"
 - id: Mennicke2014
   type: InProceedings
@@ -52,7 +52,7 @@
   url_slug: forte2014
   
   issued:
-  - year: 2014
+    year: 2014
     month: "June"
 - id: Mennicke2014a
   type: InProceedings
@@ -66,7 +66,7 @@
   url_slug: splc2014
   
   issued:
-  - year: 2014
+    year: 2014
     month: "September"
 - id: Luthmann2015
   type: InProceedings
@@ -80,7 +80,7 @@
   url_slug: fmsple2015
   
   issued:
-  - year: 2015
+    year: 2015
     month: "April"
 - id: Lochau2016
   type: Article
@@ -94,7 +94,7 @@
   url_slug: jlamp2016
   
   issued:
-  - year: 2016
+    year: 2016
     month: "January"
 - id: Luthmann2016
   type: InProceedings
@@ -108,7 +108,7 @@
   url_slug: facs2016
   
   issued:
-  - year: 2016
+    year: 2016
     month: "October"
 - id: Luthmann2016a
   type: Article
@@ -122,7 +122,7 @@
   url_slug: techrep2016
   
   issued:
-  - year: 2016
+    year: 2016
     month: "June"
 - id: Knueppel2017
   type: InProceedings
@@ -136,7 +136,7 @@
   url_slug: fse2017
   
   issued:
-  - year: 2017
+    year: 2017
     month: "September"
 - id: Mennicke2017
   type: InProceedings
@@ -150,7 +150,7 @@
   url_slug: er2017
   
   issued:
-  - year: 2017
+    year: 2017
     month: "November"
 - id: Mennicke2017a
   type: InProceedings
@@ -164,7 +164,7 @@
   url_slug: lwda2017
   
   issued:
-  - year: 2017
+    year: 2017
     month: "September"
 - id: Prehn2017
   type: InProceedings
@@ -178,7 +178,7 @@
   url_slug: ice2017
   
   issued:
-  - year: 2017
+    year: 2017
     month: "June"
 - id: Knueppel2018
   type: InProceedings
@@ -192,7 +192,7 @@
   url_slug: se2018
   
   issued:
-  - year: 2018
+    year: 2018
     month: "March"
 - id: Mennicke2018
   type: Article
@@ -206,7 +206,7 @@
   url_slug: datenbankspektrum2018
   
   issued:
-  - year: 2018
+    year: 2018
     month: "May"
 - id: Mennicke2018a
   type: Article
@@ -220,7 +220,7 @@
   url_slug: techreport2018
   
   issued:
-  - year: 2018
+    year: 2018
     month: "October"
 - id: ER2019
   type: Unpublished
@@ -234,7 +234,7 @@
   url_slug: er2019
   date: "2019-11-07"
   issued:
-  - year: 2019
+    year: 2019
     month: "November"
 - id: Glabbeek2019
   type: InProceedings
@@ -248,7 +248,7 @@
   url_slug: festschrift2019
   
   issued:
-  - year: 2019
+    year: 2019
     month: "November"
 - id: ICDE2019
   type: Unpublished
@@ -262,7 +262,7 @@
   url_slug: icde2019
   date: "2019-04-09"
   issued:
-  - year: 2019
+    year: 2019
     month: "April"
 - id: Luthmann2019
   type: Article
@@ -276,7 +276,7 @@
   url_slug: scp2019
   
   issued:
-  - year: 2019
+    year: 2019
     month: "November"
 - id: Mennicke2019
   type: Article
@@ -290,7 +290,7 @@
   url_slug: jlamp2019
   
   issued:
-  - year: 2019
+    year: 2019
     month: "January"
 - id: Mennicke2019a
   type: InProceedings
@@ -304,7 +304,7 @@
   url_slug: er2019
   
   issued:
-  - year: 2019
+    year: 2019
     month: "November"
 - id: Mennicke2019b
   type: InProceedings
@@ -318,7 +318,7 @@
   url_slug: icde2019
   
   issued:
-  - year: 2019
+    year: 2019
     month: "April"
 - id: Affeldt2020
   type: InProceedings
@@ -332,7 +332,7 @@
   url_slug: lwda2020
   
   issued:
-  - year: 2020
+    year: 2020
     month: "September"
 - id: Affeldt2020a
   type: InProceedings
@@ -346,7 +346,7 @@
   url_slug: websci2020
   
   issued:
-  - year: 2020
+    year: 2020
     month: "July"
 - id: Kalo2020
   type: InProceedings
@@ -360,7 +360,7 @@
   url_slug: eswc2020
   
   issued:
-  - year: 2020
+    year: 2020
     month: "May"
 - id: Kroll2020
   type: InProceedings
@@ -374,7 +374,7 @@
   url_slug: tpdl2020
   
   issued:
-  - year: 2020
+    year: 2020
     month: "August"
 - id: Mennicke2020
   type: PhdThesis
@@ -388,7 +388,7 @@
   url_slug: phdthesis2020
   
   issued:
-  - year: 2020
+    year: 2020
     month: "March"
 - id: PhD2020
   type: Unpublished
@@ -402,5 +402,5 @@
   url_slug: defense2020
   date: "2020-03-11"
   issued:
-  - year: 2020
+    year: 2020
     month: "March"

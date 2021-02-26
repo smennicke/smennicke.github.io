@@ -1,5 +1,11 @@
 - id: FCT
   title: "Foundations of Complexity Theory"
+  roles:
+    - name: Tutor
+      terms:
+        - year: 2020
+          semester: winter
+          url: https://iccl.inf.tu-dresden.de/web/Complexity_Theory_(WS2020)
   keywords:
     - "theoretical computer science"
     - "complexity theory"
@@ -11,10 +17,14 @@
   department: "Faculty of Computer Science"
   institute: "Knowledge-Based Systems Group"
   location: "Dresden, Germany"
-  semester:
-    - "2020-winter"
 - id: RDB2
   title: "Relational Database Systems II"
+  roles:
+    - name: Lecturer
+      terms:
+        - year: 2019
+          semester: summer
+          url: http://www.ifis.cs.tu-bs.de/teaching/ss2019/rdb2
   keywords:
     - "datbase management systems"
     - "dbms"
@@ -27,10 +37,29 @@
   department: "Carl-Friedrich-Gauß Faculty"
   institute: "Institut für Informationssysteme"
   location: "Braunschweig, Germany"
-  semester:
-    - "2019-summer"
 - id: PA
   title: "Prozessalgebra"
+  roles:
+    - name: Lecturer
+      terms:
+        - year: 2014
+          semester: winter
+        - year: 2015
+          semester: winter
+        - year: 2016
+          semester: winter
+        - year: 2017
+          semester: winter
+    - name: Tutor
+      terms:
+        - year: 2011
+          semester: winter
+        - year: 2012
+          semester: winter
+    - name: "Tutor and Lecturer"
+      terms:
+        - year: 2013
+          semester: winter
   keywords:
     - "process algebra"
     - "process calculi"
@@ -43,8 +72,3 @@
   department: "Carl-Friedrich-Gauß Faculty"
   institute: "Institut für Programmierung und Reaktive Systeme"
   location: "Braunschweig, Germany"
-  semester:
-    - "2017-winter"
-    - "2016-winter"
-    - "2015-winter"
-    - "2014-winter"

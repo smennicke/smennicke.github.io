@@ -10,5 +10,5 @@
   url_slug: \format[ToLowerCase]{\note}\year
   \begin{eventdate}date: "\eventdate"\end{eventdate}
   issued:
-  - year: \year
+    year: \year
     month: "\month"

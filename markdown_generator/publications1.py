@@ -40,8 +40,8 @@ for i, pub in enumerate(bib,1):
   citekey = pub.get('id')
 
   # print(pub.get('issued'))
-  year = pub.get('issued')[0].get('year')
-  month = monthmap[pub.get('issued')[0].get('month')]
+  year = pub.get('issued').get('year')
+  month = monthmap[pub.get('issued').get('month')]
   url_slug = pub.get('url_slug')
   md_filename = f"{year}-{month}-{url_slug}"
 
