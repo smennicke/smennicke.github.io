@@ -147,7 +147,7 @@
   proceedings: "The Art of Modelling Computational Systems: A Journey from Logic and Concurrency to Security and Privacy - Essays Dedicated to Catuscia Palamidessi on the Occasion of Her 60th Birthday"
   authors: "Rob van Glabbeek and Ursula Goltz and Christopher Lippert and Stephan Mennicke"
   place: "France"
-  url_slug: 2019
+  url_slug: festschrift2019
   issued:
   - year: 2019
     month: "November"
@@ -189,7 +189,7 @@
     month: "April"
 - id: Affeldt2020
   title: "Modeling Interdependent Preferences over Incomplete Knowledge Graph Query Answers"
-  proceedings: "Proceedings of the Conference \"Lernen, Wissen, Daten, Analysen\", Online, September 9-11, 2020"
+  proceedings: "Proceedings of the Conference Lernen, Wissen, Daten, Analysen, Online, September 9-11, 2020"
   authors: "Till Affeldt and Stephan Mennicke and Wolf-Tilo Balke"
   place: "Online (Bonn, Germany)"
   url_slug: lwda2020
@@ -228,7 +228,7 @@
   school: "Braunschweig University of Technology, Germany"
   authors: "Stephan Mennicke"
   place: "Braunschweig, Germany"
-  url_slug: 2020
+  url_slug: phdthesis2020
   issued:
   - year: 2020
     month: "March"

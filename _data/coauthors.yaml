@@ -1,0 +1,16 @@
+- id: 'wbalke'
+  name: "Wolf-Tilo Balke"
+  affiliation: "TU Braunschweig"
+  url: "http://www.ifis.cs.tu-bs.de/staff/balke"
+- id: 'jkalo'
+  name: "Jan-Christoph Kalo"
+  affiliation: "TU Braunschweig"
+  url: "http://www.ifis.cs.tu-bs.de/staff/jan-kalo"
+- id: 'mlochau'
+  name: "Malte Lochau"
+  affiliation: "Universität Siegen"
+  url: "https://mbe.informatik.uni-siegen.de/team/prof-dr-rer-nat-malte-loch/"
+- id: 'lluthmann'
+  name: "Lars Luthmann"
+  affiliation: "TU Darmstadt"
+  url: "https://www.mais.informatik.tu-darmstadt.de/Lars_Luthmann.html"

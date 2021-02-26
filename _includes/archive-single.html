@@ -43,10 +43,7 @@
         {% elsif post.collection == 'publications' %}
           <p>
           {% if post.coauthors %}
-            Joint work with
-            {% for author in post.coauthors %}
-              {{ author.name }}
-            {% endfor %}
+            Joint work with {{ post.coauthors | join: ', ' }}
             <br>
           {% endif %}
           Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
