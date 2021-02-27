@@ -1,14 +1,16 @@
 - id: \citationkey
   type: \entrytype
   title: "\format[RemoveBrackets && FormatChars]{\title}"
-  \begin{booktitle}proceedings: "\format[FormatChars]{\booktitle}"\end{booktitle}
-  \begin{journal}journal: "\format[FormatChars]{\journal}"\end{journal}
-  \begin{eventtitle}event: "\format[FormatChars]{\eventtitle}"\end{eventtitle}
-  \begin{school}school: "\format[FormatChars]{\school}"\end{school}
+  proceedings: \begin{booktitle}"\format[FormatChars]{\booktitle}"\end{booktitle}
+  journal: \begin{journal}"\format[FormatChars]{\journal}"\end{journal}
+  event: \begin{eventtitle}"\format[FormatChars]{\eventtitle}"\end{eventtitle}
+  school: \begin{school}"\format[FormatChars]{\school}"\end{school}
   authors: "\format[RemoveBrackets && FormatChars]{\author}"
   place: "\address"
   url_slug: \format[ToLowerCase]{\note}\year
-  \begin{eventdate}date: "\eventdate"\end{eventdate}
+  date: \begin{eventdate}"\eventdate"\end{eventdate}
   issued:
     year: \year
     month: "\month"
+  note: \begin{note}\note\end{note}
+  keywords: \begin{keywords}\keywords\end{keywords}

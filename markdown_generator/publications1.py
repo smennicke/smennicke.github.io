@@ -19,6 +19,13 @@ monthmap = {
   "None": "01"
 }
 
+categorymap = {
+  "inproceedings": "Conference/Workshop",
+  "techrep": "Technical Report",
+  "phdthesis": "PhD Thesis",
+  "article": "Journal"
+}
+
 # load yaml files into data structures
 with open("my_publications.yaml", 'r') as stream:
   bib = yaml.safe_load(stream)
@@ -41,6 +48,21 @@ for i, pub in enumerate(bib,1):
   authors = pub.get('authors')
   citekey = pub.get('id')
 
+  category_string = ""
+  if (pub.get('type')):
+    ctype = pub.get('type').lower()
+    category_string += f'"{categorymap.get(ctype)}"'
+  abbrv = ""
+  keyword_string = "["
+  if pub.get('note'):
+    abbrv = pub.get('note').lower()
+    keyword_string += f"{abbrv},"
+  if pub.get('keywords'):
+    if abbrv.len():
+      keyword_string += ','
+    keyword_string += ','.join(pub.get('keywords').split(','))
+  keyword_string += "]"
+
   # print(pub.get('issued'))
   year = pub.get('issued').get('year')
   month = monthmap[pub.get('issued').get('month')]
@@ -58,6 +80,8 @@ for i, pub in enumerate(bib,1):
   pub_string += f'title: "{title}"\n'
   pub_string += f"collection: {collection}\n"
   pub_string += f"permalink: {permastart}/{md_filename}\n"
+  pub_string += f"category: {category_string}\n"
+  pub_string += f"tags: {keyword_string}\n"
   pub_string += f'venue: "{venue}"\n'
   pub_string += f"date: {year}-{month}-01\n"
   pub_string += f"coauthors:"
