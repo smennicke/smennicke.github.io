@@ -15,15 +15,15 @@
     <!-- modified from http://www.codeofclimber.ru/2015/sorting-site-tags-in-jekyll/ -->
   {% endcomment %}
   {% if post.collection == 'publications' %}
-  {% capture page_categories %}{% for category in post.categories %}{{ category | downcase }}#{{ category }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
-  {% assign category_hashes = (page_categories | split: ',' | sort:0) %}
+    {% capture page_categories %}{% for category in post.categories %}{{ category | downcase }}#{{ category }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+    {% assign category_hashes = (page_categories | split: ',' | sort:0) %}
   {% else %}
-  {% capture page_categories %}{% for category in page.categories %}{{ category | downcase }}#{{ category }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
-  {% assign category_hashes = (page_categories | split: ',' | sort:0) %}
+    {% capture page_categories %}{% for category in page.categories %}{{ category | downcase }}#{{ category }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+    {% assign category_hashes = (page_categories | split: ',' | sort:0) %}
   {% endif %}
 
   <p class="page__taxonomy">
-    <strong><i class="fa fa-fw fa-folder-open" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].categories_label | default: "Categories:" }} </strong>
+    <strong><i class="fa fa-fw fa-folder-open" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].categories_label | default: "Categories:" }}</strong>
     <span itemprop="keywords">
     {% for hash in category_hashes %}
       {% assign keyValue = hash | split: '#' %}

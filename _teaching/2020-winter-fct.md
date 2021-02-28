@@ -18,17 +18,7 @@ tags: [theoretical computer science,complexity theory,Turing machines,computatio
 ---
 
 
-## Terms by Role
-
+## Terms and Roles
 {% for role in page.roles %}
-
-### {{ role.name }}
-{% for term in role.terms %}
-  {% if term.url %}
-  - [{{ term.semester | capitalize }} {{ term.year }}]({{ term.url }})
-  {% else %}
-  - {{ term.semester | capitalize }} {{ term.year }}
-  {% endif %}
-{% endfor %}
-
+  **{{ role.name }}:** {% for term in role.terms %}{% if term.url %}[{{ term.semester | capitalize }} {{ term.year }}]({{ term.url }}){% else %}{{ term.semester | capitalize }} {{ term.year }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
 {% endfor %}
