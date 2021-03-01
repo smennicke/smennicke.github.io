@@ -127,7 +127,7 @@
   note: FACS
   keywords: 
 - id: Luthmann2016a
-  type: Article
+  type: TechReport
   title: "Compositionality, Decompositionality and Refinement in Input/Output Conformance Testing - Technical Report"
   proceedings: 
   journal: "CoRR"
@@ -239,12 +239,12 @@
   note: datenbankspektrum
   keywords: 
 - id: Mennicke2018a
-  type: Article
+  type: TechReport
   title: "Fast Dual Simulation Processing of Graph Database Queries (Supplement)"
   proceedings: 
   journal: "CoRR"
   event: 
-  school: 
+  school: "TU Braunschweig"
   authors: "Stephan Mennicke and Jan-Christoph Kalo and Denis Nagel and Hermann Kroll and Wolf-Tilo Balke"
   place: ""
   url_slug: techreport2018

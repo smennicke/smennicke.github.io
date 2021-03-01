@@ -21,7 +21,7 @@ monthmap = {
 
 categorymap = {
   "inproceedings": "Conference/Workshop",
-  "techrep": "Technical Report",
+  "techreport": "Technical Report",
   "phdthesis": "PhD Thesis",
   "article": "Journal"
 }
