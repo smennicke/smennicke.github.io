@@ -48,8 +48,8 @@ twinkelmann:
   url:
 aknüppel:
   name: "Alexander Knüppel"
-  affiliation:
-  url:
+  affiliation: "TU Braunschweig"
+  url: https://www.tu-braunschweig.de/isf/team/knueppel
 tthüm:
   name: "Thomas Thüm"
   affiliation: "Universität Ulm"
@@ -65,7 +65,7 @@ ischaefer:
 dnagel:
   name: "Denis Nagel"
   affiliation: "TU Braunschweig"
-  url:
+  url: http://www.ifis.cs.tu-bs.de/staff/nagel
 naumann:
   name: "Niklas Aumann"
   affiliation:
@@ -77,7 +77,7 @@ tprehn:
 hkroll:
   name: "Hermann Kroll"
   affiliation: "TU Braunschweig"
-  url:
+  url: https://www.hkroll.de/
 rglabbeek:
   name: "Rob van Glabbeek"
   affiliation: "Data61, CSIRO, Sydney, Australia"
